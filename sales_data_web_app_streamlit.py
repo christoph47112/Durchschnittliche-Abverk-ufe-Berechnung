@@ -15,7 +15,7 @@ def process_sales_data(dataframe):
     )
     return sorted_sales
 
-st.title("Berechnung der durchschnittlichen Abverkäufe")
+st.title("Berechnung der ∅ Abverkaufsmengen pro Woche von Werbeartikeln zu Normalpreisen")
 st.write("Bitte laden Sie eine Excel-Datei hoch, um die durchschnittlichen Verkäufe pro Woche zu berechnen.")
 
 # File uploader
