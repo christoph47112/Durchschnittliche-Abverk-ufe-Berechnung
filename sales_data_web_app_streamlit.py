@@ -38,3 +38,10 @@ if uploaded_file:
     result.to_excel(output_file, index=False)
     with open(output_file, "rb") as file:
         st.download_button("Ergebnisse herunterladen", file, file_name=output_file)
+
+# Add a disclaimer at the bottom of the page
+st.markdown("---")
+st.markdown(
+    "⚠️ **Hinweis:** Diese Anwendung speichert keine Daten und hat keinen Zugriff auf Ihre Dateien. "
+    "Alle Verarbeitungen erfolgen lokal auf Ihrem Gerät oder auf dem temporären Streamlit-Server."
+)
